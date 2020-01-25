@@ -15,7 +15,15 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.18</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
+
+
 
     <!--'mvn clean' cleans the project directory for any previous temp build files-->
     <!--To build the project, use 'mvn clean install'-->
@@ -80,6 +88,4 @@
 
         </plugins>
     </build>
-
-
 </project>
